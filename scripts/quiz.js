@@ -23,6 +23,8 @@ function nextQuestion() {
         question.innerText = "Thank you for completing the quiz!";
         question.style.textAlign = "center";
         question.style.alignSelf = "center";
+        question.style.display = "flex"
+        question.style.justifyContent = "center"
         document.getElementById("answers").innerHTML = '<a href="/" class="participate-button" style="margin-top: 0;">Participate in the program</a>';
     }
 }
